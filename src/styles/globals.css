@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+
+  h1 {
+    @apply text-heading-1;
+  }
+
+  h2 {
+    @apply text-heading-2;
+  }
+
+  h3 {
+    @apply text-heading-3;
+  }
+
+  p {
+    @apply text-body;
+  }
+}
+
+@layer components {
+  /* Text Styles */
+  .text-heading-1 {
+    @apply text-4xl md:text-5xl font-bold text-indigo-800;
+  }
+
+  .text-heading-2 {
+    @apply text-3xl font-bold text-indigo-800;
+  }
+
+  .text-heading-3 {
+    @apply text-xl font-semibold text-indigo-800;
+  }
+
+  .text-body {
+    @apply text-gray-600;
+  }
+
+  /* Custom Colors */
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+
+  .bg-secondary {
+    background-color: var(--secondary-color);
+  }
+
+  .text-primary {
+    color: var(--primary-color);
+  }
+
+  .text-secondary {
+    color: var(--secondary-color);
+  }
+
+  /* Buttons */
+  .btn {
+    @apply px-4 py-2 rounded font-medium transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply text-white hover:opacity-90 disabled:bg-gray-300 disabled:text-gray-600;
+    background-color: var(--primary-color);
+  }
+
+  .btn-secondary {
+    @apply border hover:bg-gray-100 disabled:bg-gray-200 disabled:text-gray-500;
+    background-color: white;
+    color: var(--primary-color);
+    border-color: var(--light-gray);
+  }
+
+  /* Inputs */
+  .input {
+    @apply w-full px-3 py-2 border rounded focus:outline-none focus:ring-2;
+    border-color: var(--light-gray);
+    focus-ring-color: var(--primary-color);
+  }
+
+  /* Cards */
+  .card {
+    @apply rounded-lg shadow-md p-6;
+    background-color: white;
+  }
+}
+
+/* Root Variables */
+:root {
+  --primary-color: #4B0082; /* Indigo */
+  --secondary-color: #FFD700; /* Golden Yellow */
+  --text-color: #333333;
+  --background-color: #F9FAFB;
+  --light-gray: #E2E8F0;
+}

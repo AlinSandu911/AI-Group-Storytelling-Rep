@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bedtimestorytelling",
+  "private_key_id": "5baed0109c8c37989845e9011dbaf0ff3da57e73",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDY1/jZgMJnZaWe\n2fdaMm/5SmCqRmtuxxmoNnWWk5j+i7xcuDuNInL1YaG18ktVC/JNM5M7fNanaqfN\nzegV76ucXa3t2lK36CT9POsdArqihEEJhod3oqIwr48gcfOy9b4Rf/lA0bVAWLTc\nymv9O01bghWQmLWMJ9f66A/Oab7mEqqNJXVRA0MlqoniGiMGbZ6dS1+lX3qdY3sl\nniyAAITbrskPOw4mFI+pp6fUFlmuj5p3uZGHZ6fwE2MeTTlV1/TEnr1cgPWK/9/s\nN7/XSyUBFmmOLh8RZ3quP2yXzdwi6XPaRorzpnHjjphnVWaxhMmbnCuDVberIKsn\nqW7hmJCpAgMBAAECggEADlhPQphFhBCR4c3akrF2fd/hQDJzZfsu49VidwkhnGlD\nF0Eq013djAUe7Qnv2Nr29wt76HoMOzwPiMpf2Z+m0yvRV0RTp43ocIZIqX0mOp0U\nLlyjdpMgNqdOiR9wtzyRi9fS9epJms2jfV24wiJbrjuPUKcBj5mNLLCQZx/QvKiN\nL5vWB+XHd+5AAomObJqwlwBXj5815VCKlKnXJCHw+naRl/VIWki/UBnxKGRV3/ir\nVAF87+/fQaKwU4RqlnMTrXBrEKmzz+H9nulQSK8TlX7j4WYFaj8iJootymLhQWhT\nXciR7Nr+kr6rr8ZNJ8REuoTbTj4lJX7Ufp62tPPJgQKBgQD/v9zyXYNuExajXOJN\nJCjjcj9BB9qd2T3pjuUgeovNNuf+nilUXsAns9okDWVisQSYbsn0ahyulaK3wuHV\nSrhQVQ2ORq3ZXAlV8rCg0FDWrNZXJ0rye2LvIdD16bDDpmnBdnEcs6X8K30fFjNc\ntJ7oL9LLhE0s9HoOC96n72ySCQKBgQDZDlookLlpVATVBn+cIELyv/+ZDV5GGvM8\nqqBgbmDXYyR+45HH+cASw4JF534UaExPux9Tz77QSQ3L9/gnUjT6/5P9CayzhFPk\nh5mITxU3PMA91/+d0rcy95zTaQSkQ5oTKYc1xovJUOXmpXueOOyVLIMmAXybJl6x\nzsChlrUxoQKBgQCIIVQ2HdiLitWN9y7t6MVq67EHqGqRgsUVwN3tP82SWht6yC0v\nn4+gkncWoZrJwXe0u6P72U+TDksijTUwFymseNlSVgTLodXGTfv+XWPqIO2mTl/y\nWgL7ToCvpMhWHApG1Ai5Qlajt3JOTb7hJbM/29TUR4Pc3fTp7R+DPEoKIQKBgD4e\ngWcCpE2kog1lYrgH86ENmdTvon9lzx8ZpfRzInwB/7vg3SPiMjosgegHrGmiv9RB\ntWGDHxT1E2HAgeCfAlKjOnM8hZSK1oec1y/Pkj7QwCPy4VEFsTCA9Pz8HTv1rO62\n/99AB1mCMYmk6pAJsouuxYnm+wZcINW6Wh7kxs6BAoGBAMidhxiOJFiVpTg1uQq4\nCHLI2B3OoR/4Lk3dwp2mhM1YfzoaWkXO7iVzKqWyPhEP04C5QDwdA8LsEPa50mqj\n9Eo/cTRVopZ51l79/WQJQBytRdgBxPNOvq6k7D5/KnalojkGwgiWTiRizjlZ0rWW\ns9dWj977Qqv/JlLhu13OEN63\n-----END PRIVATE KEY-----\n",
+  "client_email": "tts-access@bedtimestorytelling.iam.gserviceaccount.com",
+  "client_id": "114674403920070685107",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tts-access%40bedtimestorytelling.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
