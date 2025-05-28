@@ -187,6 +187,6 @@ export const updateUserPassword = async (currentPassword, newPassword) => {
         await updatePassword(user, newPassword);
     } catch (error) {
         console.error('Error updating password:', error);
-        throw error;
-    }
+        throw error;
+    }
 };

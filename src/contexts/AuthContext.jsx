@@ -5,7 +5,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { useRouter } from 'next/navigation';
 import { auth, db } from '@/firebase/firebaseConfig';
-import { loginUser } from '@/firebase/auth';
+import { loginUser, logoutUser, registerUser } from '@/firebase/auth';
 import LoadingSpinner from '@/components/common/LoadingSpinner';
 
 // Create context
@@ -89,7 +89,7 @@ export const AuthProvider = ({ children }) => {
      * Show warning before auto-logout
      */
     const showWarning = useCallback(() => {
-        console.log('⚠️ Showing idle warning');
+        console.log('⚠ Showing idle warning');
         setShowIdleWarning(true);
         
         // Set timer for actual logout
@@ -299,7 +299,7 @@ export const AuthProvider = ({ children }) => {
                         setUser(combinedUserData);
                         console.log('✅ User authenticated and data loaded:', combinedUserData.displayName || combinedUserData.email);
                     } else {
-                        console.warn('⚠️ User exists in Auth but not in Firestore - creating default document');
+                        console.warn('⚠ User exists in Auth but not in Firestore - creating default document');
                         const defaultData = {
                             email: authUser.email,
                             displayName: authUser.displayName || '',

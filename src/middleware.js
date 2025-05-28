@@ -106,5 +106,5 @@ export const config = {
         * - api routes
         */
         '/((?!_next/static|_next/image|favicon.ico|public|api).*)',
-    ],
+    ],
 };
