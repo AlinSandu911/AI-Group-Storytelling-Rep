@@ -4,7 +4,7 @@
 
 //User roles
 export const USER_ROLES = {
-    PARENT: 'parente',
+    PARENT: 'parent',
     CHILD: 'child',
 };
 
