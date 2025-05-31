@@ -57,17 +57,15 @@ const useTextToSpeech = ({ apiKey, apiEndpoint }) => {
 
       // Instead of using the external API directly, use our API route 
       // This will handle the API key and credentials securely on the server side
-const response = await fetch('http://localhost:3000/api/tts', {
+const response = await fetch('/api/tts', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           text: cleaned,
-          voice: voice,
+          voice,
           languageCode: voiceMeta.languageCode
-        })
-      });
+        })
+      });
 
       if (!response.ok) {
         const errData = await response.json().catch(() => ({}));
